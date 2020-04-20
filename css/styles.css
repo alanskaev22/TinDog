@@ -133,3 +133,45 @@ p {
 .pricing-col {
     padding: 3% 2%;
 }
+
+/*CTA*/
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15%;
+    font-family: 'Montserrat';
+}
+
+/*Footer*/
+#footer{
+    text-align: center;
+    padding: 2%
+}
+
+.icon{
+    text-align: center;
+  padding: 10px;
+    background-color: aliceblue;
+}
+.icon:hover{
+    background-color: #ef8172;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+
+@media (max-width: 1024px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        transform: rotate(0deg);
+        position: static;
+    }
+}
