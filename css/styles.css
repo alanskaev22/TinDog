@@ -144,24 +144,29 @@ p {
 }
 
 /*Footer*/
-#footer{
+#footer {
     text-align: center;
     padding: 2%
 }
 
-.icon{
+.icon {
     text-align: center;
-  padding: 10px;
-    background-color: aliceblue;
+    padding: 10px;
 }
-.icon:hover{
+
+.icon:hover {
     background-color: #ef8172;
 }
 
-a{
+.footer-par{
+    padding-top: 20px;
+}
+
+a {
     color: black;
 }
-a:hover{
+
+a:hover {
     color: black;
 }
 
