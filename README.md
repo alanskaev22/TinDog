@@ -2,4 +2,4 @@
 
 https://alanskaev22.github.io/TinDog
 
-## Website built using Bootstrap 4
+## Responsive website built using Bootstrap 4
