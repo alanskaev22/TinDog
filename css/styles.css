@@ -21,7 +21,7 @@ a:hover {
 
 /*Containers*/
 .container-fluid {
-    padding: 7% 15%;
+    padding: 5% 15%;
 }
 
 /*Sections*/
@@ -52,7 +52,7 @@ a:hover {
 
 /*Navigation Bar*/
 .navbar {
-    padding: 0 0 4.5rem;
+    padding: 0 0 10%;
 }
 
 .navbar-brand {
@@ -184,13 +184,36 @@ a:hover {
 
 
 /*Media Queries*/
-@media screen and (max-device-width: 375px) and (max-device-height: 667px) {
+@media (max-width: 375px) {
     body{
         text-align: center;
-        font-size: 100%;
     }
     .large-heading {
-        font-size: 120%;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    body{
+        text-align: center;
+    }
+    div .container-fluid{
+        margin: auto;
+    }
+    .section-heading{
+        font-size: 2rem;
+    }
+    .download-button{
+        padding: 5%;
+    }
+    .large-heading {
+        margin-top: 5%;
+    }
+    .testimonial-text{
+        font-size: 1rem;
+    }
+    .testimonial-par, .testimonial-text{
+        text-align: center;
     }
 }
 
