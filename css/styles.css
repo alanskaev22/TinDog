@@ -1,7 +1,22 @@
-
+/*Body*/
 body {
     font-family: 'Montserrat';
     text-align: center;
+}
+
+/*Headers*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+/*Links*/
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
 }
 
 /*Containers*/
@@ -29,21 +44,11 @@ body {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat';
-    font-weight: bold;
-}
-
 .large-heading {
     font-size: 3.5rem;
     line-height: 1.5;
 }
 
-
-.features-text {
-    color: #8f8f8f;
-    font-family: 'Montserrat-Black';
-}
 
 /*Navigation Bar*/
 .navbar {
@@ -92,6 +97,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5%;
 }
 
+.features-text {
+    color: #8f8f8f;
+    font-family: 'Montserrat-Black';
+}
+
 .features-icon {
     color: #ef8172;
     margin-bottom: 1rem;
@@ -99,7 +109,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .features-icon:hover {
     color: #ff4c68;
-
 }
 
 
@@ -173,14 +182,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 20px;
 }
 
-a {
-    color: black;
-}
 
-a:hover {
-    color: black;
-}
-
+/*Meadia Queries*/
 @media (max-width: 1024px) {
     #title {
         text-align: center;
